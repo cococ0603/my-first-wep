@@ -5,21 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #grid{
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+        }
+    </style>
 </head>
 <body>
-    <h1><a href="index.html">세민 HOME</a></h1>
-    <ol>
-        <li><a href="1.html">자기소개</a></li>
-        <li ><a href="2.html">학교소개</a></li>
-        <li ><a href="3.html">동아리소개</a></li>
-      </ol>
-
-    <h3>원화여자고등학교</h3>
+    <h1 style="border-bottom: 1px solid green; padding:10px; margin: 0px;padding: 20px"><a href="index.html">세민 HOME</a></h1>
+    <div id="grid">
+        <ol style="border-right:1px solid green; width: 100px; margin: 0px; padding: 20px;">
+            <li><a href="1.html">자기소개</a></li>
+            <li><a href="2.html">학교소개</a></li>
+            <li><a href="3.html">동아리소개</a></li>
+        </ol>
+        <div> 
+            <h3>원화여자고등학교</h3>
     <img src="logo.png">
     <p> <span style="font-weight:700">주소:</span> <span style="color: rgb(30, 238, 175)">대구광역시 달서구 당산로30길 30</span></p>
     <p> <span style="font-weight:700">전화번호:</span> 053-235-7101</p>
     <p> <span style="font-weight:700">설립:</span> 1955년 1월 14일 </p>
     <p> <span style="font-weight:700">학교홈페이지:</span><a href= "https://wonhwa.dge.hs.kr/wonhwah">https://wonhwa.dge.hs.kr/wonhwah</a></p>
-    
+        </div>
+    </div>
 </body>
 </html>
